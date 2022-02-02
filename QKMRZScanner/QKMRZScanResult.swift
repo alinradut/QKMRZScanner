@@ -51,8 +51,8 @@ public class QKMRZScanResult {
         surnames = mrzResult.surnames
         givenNames = mrzResult.givenNames
         documentNumber = mrzResult.documentNumber
-        nationality = mrzResult.nationality
-        birthDate = mrzResult.birthDate
+        nationality = mrzResult.nationalityCountryCode
+        birthDate = mrzResult.birthdate
         sex = mrzResult.sex
         expiryDate = mrzResult.expiryDate
         personalNumber = mrzResult.personalNumber
