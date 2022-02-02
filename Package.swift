@@ -10,6 +10,7 @@ let dependencies: [PackageDescription.Package.Dependency] = [
 
 let package = Package(
     name: "QKMRZScanner",
+    platforms: [.iOS(.v11), .macOS(.v10_13)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
